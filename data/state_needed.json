@@ -1,0 +1,205 @@
+[{
+    "code": "AL",
+    "name": "Alabama",
+    "value": 11.3
+}, {
+    "code": "AK",
+    "name": "Alaska",
+    "value": 11.3
+}, {
+    "code": "AZ",
+    "name": "Arizona",
+    "value": 11.4
+}, {
+    "code": "AR",
+    "name": "Arkansas",
+    "value": 10.9
+}, {
+    "code": "CA",
+    "name": "California",
+    "value": 11.6
+}, {
+    "code": "CO",
+    "name": "Colorado",
+    "value": 13.2
+}, {
+    "code": "CT",
+    "name": "Connecticut",
+    "value": 9.1
+}, {
+    "code": "DE",
+    "name": "Delaware",
+    "value": 9.6
+}, {
+    "code": "DC",
+    "name": "District of Columbia",
+    "value": 13.3
+}, {
+    "code": "FL",
+    "name": "Florida",
+    "value": 10.1
+}, {
+    "code": "GA",
+    "name": "Georgia",
+    "value": 12.0
+}, {
+    "code": "HI",
+    "name": "Hawaii",
+    "value": 7.3
+}, {
+    "code": "ID",
+    "name": "Idaho",
+    "value": 11.1
+}, {
+    "code": "IL",
+    "name": "Illinois",
+    "value": 10.4
+}, {
+    "code": "IN",
+    "name": "Indiana",
+    "value": 10.7
+}, {
+    "code": "IA",
+    "name": "Iowa",
+    "value": 9.4
+}, {
+    "code": "KS",
+    "name": "Kansas",
+    "value": 11.1
+}, {
+    "code": "KY",
+    "name": "Kentucky",
+    "value": 11.1
+}, {
+    "code": "LA",
+    "name": "Louisiana",
+    "value": 11.0
+}, {
+    "code": "ME",
+    "name": "Maine",
+    "value": 10.1
+}, {
+    "code": "MD",
+    "name": "Maryland",
+    "value": 10.3
+}, {
+    "code": "MA",
+    "name": "Massachusetts",
+    "value": 10.1
+}, {
+    "code": "MI",
+    "name": "Michigan",
+    "value": 10.9
+}, {
+    "code": "MN",
+    "name": "Minnesota",
+    "value": 9.8
+}, {
+    "code": "MS",
+    "name": "Mississippi",
+    "value": 10.6
+}, {
+    "code": "MO",
+    "name": "Missouri",
+    "value": 12.1
+}, {
+    "code": "MT",
+    "name": "Montana",
+    "value": 10.0
+}, {
+    "code": "NE",
+    "name": "Nebraska",
+    "value": 9.5
+}, {
+    "code": "NV",
+    "name": "Nevada",
+    "value": 11.3
+}, {
+    "code": "NH",
+    "name": "New Hampshire",
+    "value": 9.1
+}, {
+    "code": "NJ",
+    "name": "New Jersey",
+    "value": 8.8
+}, {
+    "code": "NM",
+    "name": "New Mexico",
+    "value": 11.4
+}, {
+    "code": "NY",
+    "name": "New York",
+    "value": 9.5
+}, {
+    "code": "NC",
+    "name": "North Carolina",
+    "value": 11.0
+}, {
+    "code": "ND",
+    "name": "North Dakota",
+    "value": 8.2
+}, {
+    "code": "OH",
+    "name": "Ohio",
+    "value": 10.6
+}, {
+    "code": "OK",
+    "name": "Oklahoma",
+    "value": 12.2
+}, {
+    "code": "OR",
+    "name": "Oregon",
+    "value": 14.2
+}, {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "value": 9.5
+}, {
+    "code": "RI",
+    "name": "Rhode Island",
+    "value": 9.3
+}, {
+    "code": "SC",
+    "name": "South Carolina",
+    "value": 10.5
+}, {
+    "code": "SD",
+    "name": "South Dakota",
+    "value": 8.0
+}, {
+    "code": "TN",
+    "name": "Tennessee",
+    "value": 11.0
+}, {
+    "code": "TX",
+    "name": "Texas",
+    "value": 11.7
+}, {
+    "code": "UT",
+    "name": "Utah",
+    "value": 13.6
+}, {
+    "code": "VT",
+    "name": "Vermont",
+    "value": 10.4
+}, {
+    "code": "VA",
+    "name": "Virginia",
+    "value": 10.1
+}, {
+    "code": "WA",
+    "name": "Washington",
+    "value": 12.6
+}, {
+    "code": "WV",
+    "name": "West Virginia",
+    "value": 10.7
+}, {
+    "code": "WI",
+    "name": "Wisconsin",
+    "value": 8.9
+}, {
+    "code": "WY",
+    "name": "Wyoming",
+    "value": 9.6
+}]

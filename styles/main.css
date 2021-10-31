@@ -141,10 +141,45 @@ footer {
 
 /* Map Styling */
 
+#received-btn-state,
+#notreceived-btn-state {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 11px;
+  margin-right: -6px;
+}
+
+#received-btn-state.active {
+  background-color: #273469;
+  border: 1px solid #273469;
+  color: white;
+}
+
+#notreceived-btn-state.active {
+  background-color: #9f3504;
+  border: 1px solid #9f3504;
+  color: white;
+}
+
 #map-container {
   height: 500px;
   margin: 0 auto;
   max-width: 70%;
+}
+
+#line-container {
+  height: 400px;
+  margin: 0 auto;
+  max-width: 60%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -156,6 +191,10 @@ footer {
     visibility: visible;
   }
   #map-container {
+    max-width: 100%;
+  }
+
+  #line-container {
     max-width: 100%;
   }
 }
