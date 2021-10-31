@@ -1,0 +1,310 @@
+{
+    "Alabama": {
+        "Received Counseling or Therapy": 8.5,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.9,
+        "Took Prescription Medication for Mental Health": 24.6,
+        "Needed Counseling or Therapy But Did Not Get It": 11.3
+    },
+    "Alaska" : {
+        "Received Counseling or Therapy": 10.4,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 22.2,
+        "Took Prescription Medication for Mental Health": 18.1,
+        "Needed Counseling or Therapy But Did Not Get It": 11.3
+    },
+    "Arizona" : {
+        "Received Counseling or Therapy": 9.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 22.9,
+        "Took Prescription Medication for Mental Health": 20.0,
+        "Needed Counseling or Therapy But Did Not Get It": 11.4
+    },
+    "Arkansas" : {
+        "Received Counseling or Therapy": 8.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 28.4,
+        "Took Prescription Medication for Mental Health": 26.3,
+        "Needed Counseling or Therapy But Did Not Get It": 10.9
+    },
+    "California" : {
+        "Received Counseling or Therapy": 10.5,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 21.0,
+        "Took Prescription Medication for Mental Health": 16.8,
+        "Needed Counseling or Therapy But Did Not Get It": 11.6
+    },
+    "Colorado" : {
+        "Received Counseling or Therapy": 12.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.2,
+        "Took Prescription Medication for Mental Health": 21.2,
+        "Needed Counseling or Therapy But Did Not Get It": 13.2
+    },
+    "Connecticut" : {
+        "Received Counseling or Therapy": 12.8,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 25.6,
+        "Took Prescription Medication for Mental Health": 21.1,
+        "Needed Counseling or Therapy But Did Not Get It": 9.1
+    },
+    "Delaware" : {
+        "Received Counseling or Therapy": 10.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.4,
+        "Took Prescription Medication for Mental Health": 21.1,
+        "Needed Counseling or Therapy But Did Not Get It": 9.6
+    },
+    "District of Columbia" : {
+        "Received Counseling or Therapy": 17.9,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.9,
+        "Took Prescription Medication for Mental Health": 19.6,
+        "Needed Counseling or Therapy But Did Not Get It": 13.3
+    },
+    "Florida" : {
+        "Received Counseling or Therapy": 8.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 22.0,
+        "Took Prescription Medication for Mental Health": 19.4,
+        "Needed Counseling or Therapy But Did Not Get It": 10.1
+    },
+    "Georgia" : {
+        "Received Counseling or Therapy": 9.3,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.2,
+        "Took Prescription Medication for Mental Health": 21.1,
+        "Needed Counseling or Therapy But Did Not Get It": 12.0
+    },
+    "Hawaii" : {
+        "Received Counseling or Therapy": 8.7,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 16.8,
+        "Took Prescription Medication for Mental Health": 12.8,
+        "Needed Counseling or Therapy But Did Not Get It": 7.3
+    },
+    "Idaho" : {
+        "Received Counseling or Therapy": 9.5,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.8,
+        "Took Prescription Medication for Mental Health": 23.6,
+        "Needed Counseling or Therapy But Did Not Get It": 11.1
+    },
+    "Illinois" : {
+        "Received Counseling or Therapy": 10.4,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.5,
+        "Took Prescription Medication for Mental Health": 20.7,
+        "Needed Counseling or Therapy But Did Not Get It": 10.4
+    },
+    "Indiana" : {
+        "Received Counseling or Therapy": 8.8,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.6,
+        "Took Prescription Medication for Mental Health": 25.2,
+        "Needed Counseling or Therapy But Did Not Get It": 10.7
+    },
+    "Iowa" : {
+        "Received Counseling or Therapy": 9.5,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.4,
+        "Took Prescription Medication for Mental Health": 24.8,
+        "Needed Counseling or Therapy But Did Not Get It": 9.4
+    },
+    "Kansas": {
+        "Received Counseling or Therapy": 9.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.4,
+        "Took Prescription Medication for Mental Health": 23.7,
+        "Needed Counseling or Therapy But Did Not Get It": 11.1
+    },
+    "Kentucky": {
+        "Received Counseling or Therapy": 9.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 29.1,
+        "Took Prescription Medication for Mental Health": 26.7,
+        "Needed Counseling or Therapy But Did Not Get It": 11.1
+    },
+    "Louisiana": {
+        "Received Counseling or Therapy": 9.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 28.0,
+        "Took Prescription Medication for Mental Health": 25.5,
+        "Needed Counseling or Therapy But Did Not Get It": 11.0
+    },
+    "Maine": {
+        "Received Counseling or Therapy": 11.6,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 29.1,
+        "Took Prescription Medication for Mental Health": 25.1,
+        "Needed Counseling or Therapy But Did Not Get It": 10.1
+    },
+    "Maryland": {
+        "Received Counseling or Therapy": 12.0,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.5,
+        "Took Prescription Medication for Mental Health": 20.2,
+        "Needed Counseling or Therapy But Did Not Get It": 10.3
+    },
+    "Massachusetts": {
+        "Received Counseling or Therapy": 14.8,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 28.5,
+        "Took Prescription Medication for Mental Health": 23.3,
+        "Needed Counseling or Therapy But Did Not Get It": 10.1
+    },
+    "Michigan": {
+        "Received Counseling or Therapy": 10.3,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.1,
+        "Took Prescription Medication for Mental Health": 22.7,
+        "Needed Counseling or Therapy But Did Not Get It": 10.9
+    },
+    "Minnesota": {
+        "Received Counseling or Therapy": 10.6,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.9,
+        "Took Prescription Medication for Mental Health": 23.4,
+        "Needed Counseling or Therapy But Did Not Get It": 9.8
+    },
+    "Mississippi": {
+        "Received Counseling or Therapy": 7.4,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 25.2,
+        "Took Prescription Medication for Mental Health": 23.6,
+        "Needed Counseling or Therapy But Did Not Get It": 10.6
+    },
+    "Missouri": {
+        "Received Counseling or Therapy": 9.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.1,
+        "Took Prescription Medication for Mental Health": 24.6,
+        "Needed Counseling or Therapy But Did Not Get It": 12.1
+    },
+    "Montana": {
+        "Received Counseling or Therapy": 9.4,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 25.3,
+        "Took Prescription Medication for Mental Health": 21.7,
+        "Needed Counseling or Therapy But Did Not Get It": 10.0
+    },
+    "Nebraska": {
+        "Received Counseling or Therapy": 9.0,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 25.5,
+        "Took Prescription Medication for Mental Health": 22.9,
+        "Needed Counseling or Therapy But Did Not Get It": 9.5
+    },
+    "Nevada": {
+        "Received Counseling or Therapy": 8.3,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 20.4,
+        "Took Prescription Medication for Mental Health": 17.4,
+        "Needed Counseling or Therapy But Did Not Get It": 11.3
+    },
+    "New Hampshire": {
+        "Received Counseling or Therapy": 10.7,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.3,
+        "Took Prescription Medication for Mental Health": 24.0,
+        "Needed Counseling or Therapy But Did Not Get It": 9.1
+    },
+    "New Jersey": {
+        "Received Counseling or Therapy": 9.9,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 21.8,
+        "Took Prescription Medication for Mental Health": 18.1,
+        "Needed Counseling or Therapy But Did Not Get It": 8.8
+    },
+    "New Mexico": {
+        "Received Counseling or Therapy": 10.7,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.5,
+        "Took Prescription Medication for Mental Health": 20.6,
+        "Needed Counseling or Therapy But Did Not Get It": 11.4
+    },
+    "New York": {
+        "Received Counseling or Therapy": 12.0,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 22.8,
+        "Took Prescription Medication for Mental Health": 18.2,
+        "Needed Counseling or Therapy But Did Not Get It": 9.5
+    },
+    "North Carolina": {
+        "Received Counseling or Therapy": 9.9,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.4,
+        "Took Prescription Medication for Mental Health": 23.3,
+        "Needed Counseling or Therapy But Did Not Get It": 11.0
+    },
+    "North Dakota": {
+        "Received Counseling or Therapy": 7.4,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.4,
+        "Took Prescription Medication for Mental Health": 22.4,
+        "Needed Counseling or Therapy But Did Not Get It": 8.2
+    },
+    "Ohio": {
+        "Received Counseling or Therapy": 9.6,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.3,
+        "Took Prescription Medication for Mental Health": 23.5,
+        "Needed Counseling or Therapy But Did Not Get It": 10.6
+    },
+    "Oklahoma": {
+        "Received Counseling or Therapy": 8.8,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.7,
+        "Took Prescription Medication for Mental Health": 25.2,
+        "Needed Counseling or Therapy But Did Not Get It": 12.2
+    },
+    "Oregon": {
+        "Received Counseling or Therapy": 12.8,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 28.2,
+        "Took Prescription Medication for Mental Health": 23.1,
+        "Needed Counseling or Therapy But Did Not Get It": 14.2
+    },
+    "Pennsylvania": {
+        "Received Counseling or Therapy": 10.7,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 27.2,
+        "Took Prescription Medication for Mental Health": 23.8,
+        "Needed Counseling or Therapy But Did Not Get It": 9.5
+    },
+    "Rhode Island": {
+        "Received Counseling or Therapy": 14.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 29.4,
+        "Took Prescription Medication for Mental Health": 25.3,
+        "Needed Counseling or Therapy But Did Not Get It": 9.3
+    },
+    "South Carolina": {
+        "Received Counseling or Therapy": 8.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 25.7,
+        "Took Prescription Medication for Mental Health": 23.3,
+        "Needed Counseling or Therapy But Did Not Get It": 10.5
+    },
+    "South Dakota": {
+        "Received Counseling or Therapy": 7.1,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 23.6,
+        "Took Prescription Medication for Mental Health": 21.7,
+        "Needed Counseling or Therapy But Did Not Get It": 8.0
+    },
+    "Tennessee": {
+        "Received Counseling or Therapy": 8.6,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.3,
+        "Took Prescription Medication for Mental Health": 23.7,
+        "Needed Counseling or Therapy But Did Not Get It": 11.0
+    },
+    "Texas": {
+        "Received Counseling or Therapy": 8.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 21.7,
+        "Took Prescription Medication for Mental Health": 18.7,
+        "Needed Counseling or Therapy But Did Not Get It": 11.7
+    },
+    "Utah": {
+        "Received Counseling or Therapy": 10.7,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 29.3,
+        "Took Prescription Medication for Mental Health": 25.2,
+        "Needed Counseling or Therapy But Did Not Get It": 13.6
+    },
+    "Vermont": {
+        "Received Counseling or Therapy": 13.5,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 29.5,
+        "Took Prescription Medication for Mental Health": 23.9,
+        "Needed Counseling or Therapy But Did Not Get It": 10.4
+    },
+    "Virginia": {
+        "Received Counseling or Therapy": 10.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 24.2,
+        "Took Prescription Medication for Mental Health": 21.1,
+        "Needed Counseling or Therapy But Did Not Get It": 10.1
+    },
+    "Washington": {
+        "Received Counseling or Therapy": 11.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 26.1,
+        "Took Prescription Medication for Mental Health": 21.9,
+        "Needed Counseling or Therapy But Did Not Get It": 12.6
+    },
+    "West Virginia": {
+        "Received Counseling or Therapy": 8.3,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 29.6,
+        "Took Prescription Medication for Mental Health": 27.8,
+        "Needed Counseling or Therapy But Did Not Get It": 10.7
+    },
+    "Wisconsin": {
+        "Received Counseling or Therapy": 9.2,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 25.1,
+        "Took Prescription Medication for Mental Health": 22.1,
+        "Needed Counseling or Therapy But Did Not Get It": 8.9
+    },
+    "Wyoming": {
+        "Received Counseling or Therapy": 8.3,
+        "Took Prescription Medication for Mental Health And/Or Received Counseling or Therapy": 23.6,
+        "Took Prescription Medication for Mental Health": 20.9,
+        "Needed Counseling or Therapy But Did Not Get It": 9.6
+    }
+    }
+    
+    

@@ -1,0 +1,161 @@
+.display-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+h1 {
+  font-family: Postoni Standard, Postoni, BodoniSvtyTwoITCTT-Book, georgia,
+    serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1955a5;
+}
+
+footer {
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.mobile-btn {
+  visibility: hidden;
+  color: white;
+}
+
+.mobile-btn:hover {
+  transition: 0.2s ease-in;
+  color: rgb(65, 64, 64);
+}
+
+.nav-bar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 60px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#header-tagline {
+  color: #ccc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: -2px;
+}
+
+#subscribe-btn {
+  background-color: #1955a5;
+  border: 1px solid #3d73d5;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-left: 5px;
+}
+
+#subscribe-btn:hover {
+  transition: 0.2s ease-in;
+  background-color: #3d73d5;
+  border: 1px solid #3d73d5;
+  color: white;
+}
+
+.gray-btn {
+  background-color: #1f1f1f;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-left: 5px;
+}
+
+.gray-btn > i {
+  padding-left: 5px;
+}
+
+.small-gray-btn {
+  background-color: #1f1f1f;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 11px;
+}
+
+.gray-btn:hover,
+.small-gray-btn:hover {
+  transition: 0.2s ease-in;
+  background-color: black;
+  border: 1px solid #efefef;
+  color: white;
+}
+
+/* Map Styling */
+
+#map-container {
+  height: 500px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop-btn {
+    display: none;
+  }
+
+  .mobile-btn {
+    visibility: visible;
+  }
+  #map-container {
+    max-width: 100%;
+  }
+}
