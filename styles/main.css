@@ -321,6 +321,6 @@ footer {
   #mini-tables, .informative-text,
   p,
   h3 {
-    max-width: 100%;
+    max-width: 95%;
   }
 }
