@@ -14,8 +14,7 @@ $( document ).ready(function() {
             {data: "Average Value"},
         ], 
         searching: false,
-        paging: true,
-        pageLength: 7
+        paging: false
     });
 });
 
@@ -64,8 +63,8 @@ function renderMiniTable(type) {
                 {data: "Average Value"},
             ], 
             searching: false,
-            paging: true,
-            pageLength: 7
+            paging: false
+            //pageLength: 7
         });
     } else if(type == "gender") {
         minitable = $("#featured-table").DataTable( {
@@ -81,8 +80,8 @@ function renderMiniTable(type) {
                 {data: "Average Value"},
             ], 
             searching: false,
-            paging: true,
-            pageLength: 5
+            paging: false
+            //pageLength: 5
         });
     } else if(type == "race") {
         minitable = $("#featured-table").DataTable( {
@@ -98,8 +97,8 @@ function renderMiniTable(type) {
                 {data: "Average Value"},
             ], 
             searching: false,
-            paging: true,
-            pageLength: 5
+            paging: false
+            //pageLength: 5
         });
     }
 }
