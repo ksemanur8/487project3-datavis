@@ -301,6 +301,12 @@ footer {
   color: white;
 }
 
+.informative-text {
+  text-align: left; 
+  margin: 0 auto; 
+  max-width: 60%"
+}
+
 @media only screen and (max-width: 768px) {
   .desktop-btn {
     display: none;
@@ -312,7 +318,7 @@ footer {
   #map-container,
   #line-container,
   #data-table,
-  #mini-tables,
+  #mini-tables, .informative-text,
   p,
   h3 {
     max-width: 100%;
