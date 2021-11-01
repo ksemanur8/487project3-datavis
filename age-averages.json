@@ -1,0 +1,86 @@
+[
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "18-29 years",
+      "Average Value": 19.8
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "18-29 years",
+      "Average Value": 15
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "30-39 years",
+      "Average Value": 15.4
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "30-39 years",
+      "Average Value": 14.2
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "40-49 years",
+      "Average Value": 11.7
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "40-49 years",
+      "Average Value": 11.3
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "50-59 years",
+      "Average Value": 9
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "50-59 years",
+      "Average Value": 9
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "60-69 years",
+      "Average Value": 5.7
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "60-69 years",
+      "Average Value": 6
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "70-79 years",
+      "Average Value": 3.2
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "70-79 years",
+      "Average Value": 4.1
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Age Group": "80 years and above",
+      "Average Value": 3.3
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Age Group": "80 years and above",
+      "Average Value": 3.6
+    }
+  ]

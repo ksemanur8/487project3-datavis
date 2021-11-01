@@ -91,7 +91,7 @@
 
     <!--Intro-->
     <div id="headings" style="text-align: center">
-      <h1>America—how are you, really?</h1>
+      <h1>Dear America—how are you, really?</h1>
       <h2>
         A look into mental health in the United States of America during the
         COVID-19 pandemic.
@@ -108,13 +108,87 @@
 
     <!--Line Chart-->
     <div id="line-chart">
+      <h3>
+        National Estimates of Mental Health Care in the U.S. Between August 2020
+        and October 2021
+      </h3>
       <div id="line-container"></div>
+    </div>
+
+    <div>
+      <p>
+        Ever since it began gaining traction in the United States in March 2020,
+        the COVID-19 pandemic has resulted in many losses. Many Americans lost
+        jobs, freedom, and loved ones. Throughout these difficult times, it has
+        been difficult for Americans to protect not only their physical health
+        but also their mental health and the pandemic has definitely taken its
+        toll on America's mental health.
+      </p>
+      <p>
+        According to data from the
+        <a
+          href="https://catalog.data.gov/dataset/mental-health-care-in-the-last-4-weeks"
+          target="_blank"
+          >U.S. Census Bureau</a
+        >, the percentage of Americans who received counseling or therapy in
+        August 2020 was 8.7%. Most recent data from October 2021 shows that that
+        number has risen by almost two percent and is now 10.5%. Some Americans
+        expressed that they felt a need for counseling or therapy but could not
+        receive it. This number rose from 9.2% in August 2020 to 11% in October
+        2021.
+      </p>
+      <p>
+        Explore the charts and tables below to see how the pandemic reflected on
+        the mental health care of Americans as a whole, by age groups, gender,
+        race, and states.
+      </p>
+    </div>
+
+    <!--Featured Tables-->
+    <div id="mini-tables">
+      <h3>Mental Health Care by Age Group</h3>
+      <table id="age-table" class="minitable table table-striped">
+        <thead class="table-secondary">
+          <tr>
+            <th>Indicator</th>
+            <th>Time Period</th>
+            <th>Age Group</th>
+            <th>Value (%)</th>
+          </tr>
+        </thead>
+      </table>
+      <h3>Mental Health Care by Gender</h3>
+      <table id="gender-table" class="minitable table table-striped">
+        <thead class="table-secondary">
+          <tr>
+            <th>Indicator</th>
+            <th>Time Period</th>
+            <th>Gender</th>
+            <th>Value (%)</th>
+          </tr>
+        </thead>
+      </table>
+      <h3>Mental Health Care by Race/Hispanic ethnicity</h3>
+      <table id="race-table" class="minitable table table-striped">
+        <thead class="table-secondary">
+          <tr>
+            <th>Indicator</th>
+            <th>Time Period</th>
+            <th>Race/Hispanic or Latino Ethnicity</th>
+            <th>Value (%)</th>
+          </tr>
+        </thead>
+      </table>
     </div>
 
     <!--Map-->
     <div id="map-chart">
+      <h3>
+        State Averages for Mental Health Care Between August 2020 and October
+        2021
+      </h3>
       <div class="row">
-        <div class="column-md-12 text-center">
+        <div class="col-md-12 text-center">
           <button type="button" id="received-btn-state" class="active">
             Received care
           </button>
@@ -127,15 +201,7 @@
     </div>
 
     <!--Data Table-->
-    <div id="data-table">
-      <!--<div class="row">
-        <div class="column-md-12 text-center">
-          <button type="button" id="fullreceived-btn" class="active">
-            Received care
-          </button>
-          <button type="button" id="fullneed-btn">Couldn't receive care</button>
-        </div>
-      </div>-->
+    <div id="data-table" style="padding-bottom: 60px">
       <table id="table-container" class="table table-striped">
         <thead id="table-headings" class="table-primary">
           <tr>
@@ -148,7 +214,7 @@
         </thead>
       </table>
     </div>
-
+    <hr style="width: 60%; margin: 0 auto; height: 2px" />
     <footer id="footer">
       <span>
         Data from the U.S. Census Bureau's and five federal agencies' survey on
@@ -189,5 +255,6 @@
     <!--My js-->
     <script src="./scripts/statedata.js"></script>
     <script src="./scripts/linechart.js"></script>
+    <script src="./scripts/minitables.js"></script>
   </body>
 </html>

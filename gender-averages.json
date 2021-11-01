@@ -1,0 +1,26 @@
+[
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Gender": "Female",
+      "Average Value": 13.2
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Gender": "Female",
+      "Average Value": 12
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Gender": "Male",
+      "Average Value": 8.2
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Gender": "Male",
+      "Average Value": 7.7
+    }
+  ]

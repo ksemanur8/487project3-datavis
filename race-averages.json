@@ -1,0 +1,62 @@
+[
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Hispanic or Latino",
+      "Average Value": 11.9
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Hispanic or Latino",
+      "Average Value": 9
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic Asian, single race",
+      "Average Value": 6.7
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic Asian, single race",
+      "Average Value": 6.1
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic Black, single race",
+      "Average Value": 11.5
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic Black, single race",
+      "Average Value": 9.5
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic White, single race",
+      "Average Value": 10.5
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic White, single race",
+      "Average Value": 10.4
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Needed Counseling or Therapy But Did Not Get It, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic, other races and multiple races",
+      "Average Value": 16.2
+    },
+    {
+      "Time Period Label": "8/19/20-10/11/21",
+      "Indicator": "Received Counseling or Therapy, Last 4 Weeks",
+      "Race/Hispanic Ethnicity": "Non-Hispanic, other races and multiple races",
+      "Average Value": 13.4
+    }
+  ]
