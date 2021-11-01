@@ -96,14 +96,14 @@
         A look into mental health in the United States of America during the
         COVID-19 pandemic.
       </h2>
-      <p style="color: rgb(64, 64, 64)">
+      <span style="color: rgb(64, 64, 64)">
         By
         <a
           href="https://www.linkedin.com/in/semanurka/"
           style="font-weight: 800; font-size: 16px"
           >Semanur Karayaka</a
         >
-      </p>
+      </span>
     </div>
 
     <!--Line Chart-->
@@ -139,42 +139,29 @@
       </p>
       <p>
         Explore the charts and tables below to see how the pandemic reflected on
-        the mental health care of Americans as a whole, by age groups, gender,
-        race, and states.
+        the mental health care of America by age groups, gender, race, and
+        states.
       </p>
     </div>
 
     <!--Featured Tables-->
     <div id="mini-tables">
-      <h3>Mental Health Care by Age Group</h3>
-      <table id="age-table" class="minitable table table-striped">
+      <h3>Mental Health Care Averages by Group</h3>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button type="button" id="age-btn" class="active">
+            Care by age group
+          </button>
+          <button type="button" id="gender-btn">Care by gender</button>
+          <button type="button" id="race-btn">Care by race</button>
+        </div>
+      </div>
+      <table id="featured-table" class="minitable table table-striped">
         <thead class="table-secondary">
           <tr>
             <th>Indicator</th>
             <th>Time Period</th>
-            <th>Age Group</th>
-            <th>Value (%)</th>
-          </tr>
-        </thead>
-      </table>
-      <h3>Mental Health Care by Gender</h3>
-      <table id="gender-table" class="minitable table table-striped">
-        <thead class="table-secondary">
-          <tr>
-            <th>Indicator</th>
-            <th>Time Period</th>
-            <th>Gender</th>
-            <th>Value (%)</th>
-          </tr>
-        </thead>
-      </table>
-      <h3>Mental Health Care by Race/Hispanic ethnicity</h3>
-      <table id="race-table" class="minitable table table-striped">
-        <thead class="table-secondary">
-          <tr>
-            <th>Indicator</th>
-            <th>Time Period</th>
-            <th>Race/Hispanic or Latino Ethnicity</th>
+            <th>Group</th>
             <th>Value (%)</th>
           </tr>
         </thead>

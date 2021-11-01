@@ -257,11 +257,48 @@ footer {
 
 #mini-tables {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 70%;
+  padding-bottom: 20px;
 }
 
 .dataTables_info {
   display: none;
+}
+
+/* Mini table buttons */
+#age-btn,
+#gender-btn,
+#race-btn {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 11px;
+  margin-right: -6px;
+}
+
+#age-btn.active,
+#gender-btn.active,
+#race-btn.active {
+  background-color: #1955a5;
+  border: 1px solid #3d73d5;
+  color: white;
+}
+
+#age-btn:hover,
+#gender-btn:hover,
+#race-btn:hover {
+  transition: 0.2s ease-in;
+  background-color: #3d73d5;
+  border: 1px solid #3d73d5;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
