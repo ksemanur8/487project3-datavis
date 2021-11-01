@@ -1,23 +1,73 @@
+let table;
 $( document ).ready(function() {
     renderReceivedMap();
+    table = $('#table-container').DataTable( {
+        ajax: {
+            url: "/data/states_receive_full.json",
+            dataSrc: ""
+        },
+        columns: [
+            {data: "Indicator"},
+            {type: "date",
+            data: "Time Period Label"},
+            {data: "State"},
+            {data: "Percent Value"},
+            {data: "Confidence Interval"}
+        ], 
+        pageLength: 10
+    });
 });
 
-// Map buttons
+// Buttons
 $("#received-btn-state").click(function() {
-    if($("#notreceived-btn-state").hasClass("active") && !$("#received-btn-state").hasClass("active")) {
+    if($("#notreceived-btn-state").hasClass("active") 
+    && $("#table-headings").hasClass("table-warning")
+    && !$("#received-btn-state").hasClass("active")
+    && !$("#table-headings").hasClass("table-primary")) {
         $("#notreceived-btn-state").removeClass("active");
         $("#received-btn-state").addClass("active");
+        $("#table-headings").addClass("table-primary");
+        $("#table-headings").removeClass("table-warning");
+        renderReceivedMap();
+        table.destroy();
+        renderTable("/data/states_receive_full.json");
     }
-    renderReceivedMap();
 })
 
 $("#notreceived-btn-state").click(function() {
-    if($("#received-btn-state").hasClass("active") && !$("#notreceived-btn-state").hasClass("active")) {
+    if($("#received-btn-state").hasClass("active") 
+    && $("#table-headings").hasClass("table-primary") 
+    && !$("#notreceived-btn-state").hasClass("active") 
+    && !$("#table-headings").hasClass("table-warning")) {
         $("#notreceived-btn-state").addClass("active");
         $("#received-btn-state").removeClass("active");
+        $("#table-headings").addClass("table-warning");
+        $("#table-headings").removeClass("table-primary");
+        renderNotReceivedMap();
+        table.destroy();
+        renderTable("/data/states_need_full.json");
     }
-    renderNotReceivedMap();
 })
+
+// Table rendering
+
+function renderTable(dataset) {
+    table = $('#table-container').DataTable( {
+        ajax: {
+            url: dataset,
+            dataSrc: ""
+        },
+        columns: [
+            {data: "Indicator"},
+            {data: "Time Period Label"},
+            {data: "State"},
+            {data: "Percent Value"},
+            {data: "Confidence Interval"}
+        ], 
+        pageLength: 10
+
+    });
+}
 
 // Map rendering
 function renderReceivedMap() {
@@ -156,3 +206,4 @@ function renderNotReceivedMap() {
     });
     });
 }
+

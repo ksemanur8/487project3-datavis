@@ -14,6 +14,10 @@
   align-items: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: Postoni Standard, Postoni, BodoniSvtyTwoITCTT-Book, georgia,
     serif;
@@ -32,8 +36,17 @@ h2 {
 }
 
 a {
+  font-family: "FranklinITCProBold", "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", "Apple SD Gothic Neo", "Myriad Set Pro",
+    "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   text-decoration: none;
   color: #1955a5;
+}
+
+#headings {
+  padding: 50px;
+  line-height: 40px;
 }
 
 footer {
@@ -142,7 +155,9 @@ footer {
 /* Map Styling */
 
 #received-btn-state,
-#notreceived-btn-state {
+#notreceived-btn-state,
+#fullreceived-btn,
+#fullneed-btn {
   background-color: rgb(247, 247, 247);
   border: 1px solid rgb(204, 204, 204);
   border-radius: 2px;
@@ -158,16 +173,34 @@ footer {
   margin-right: -6px;
 }
 
-#received-btn-state.active {
+#received-btn-state.active,
+#fullreceived-btn.active {
   background-color: #273469;
   border: 1px solid #273469;
   color: white;
 }
 
-#notreceived-btn-state.active {
+#notreceived-btn-state.active,
+#fullneed-btn.active {
   background-color: #9f3504;
   border: 1px solid #9f3504;
   color: white;
+}
+
+#received-btn-state:hover,
+#fullreceived-btn:hover {
+  background-color: #5463a0;
+  border: 1px solid #5463a0;
+  color: white;
+  transition: 0.2s ease-in;
+}
+
+#notreceived-btn-state:hover,
+#fullneed-btn:hover {
+  background-color: #b96944;
+  border: 1px solid #b96944;
+  color: white;
+  transition: 0.2s ease-in;
 }
 
 #map-container {
@@ -180,6 +213,20 @@ footer {
   height: 400px;
   margin: 0 auto;
   max-width: 60%;
+}
+
+#data-table {
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.page-item.active .page-link {
+  background-color: rgb(167, 167, 167);
+  border-color: rgb(167, 167, 167);
+}
+
+.page-link {
+  color: rgb(63, 63, 63);
 }
 
 @media only screen and (max-width: 768px) {
@@ -195,6 +242,10 @@ footer {
   }
 
   #line-container {
+    max-width: 100%;
+  }
+
+  #data-table {
     max-width: 100%;
   }
 }

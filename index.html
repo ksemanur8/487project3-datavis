@@ -16,6 +16,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.11.3/datatables.min.css"
+    />
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
@@ -84,37 +89,64 @@
     </div>
     <!--Navigation end-->
 
-    <h1>America—how are you, really?</h1>
-    <h2>
-      A look into mental health in the United States of America during the
-      COVID-19 pandemic.
-    </h2>
+    <!--Intro-->
+    <div id="headings" style="text-align: center">
+      <h1>America—how are you, really?</h1>
+      <h2>
+        A look into mental health in the United States of America during the
+        COVID-19 pandemic.
+      </h2>
+      <p style="color: rgb(64, 64, 64)">
+        By
+        <a
+          href="https://www.linkedin.com/in/semanurka/"
+          style="font-weight: 800; font-size: 16px"
+          >Semanur Karayaka</a
+        >
+      </p>
+    </div>
+
+    <!--Line Chart-->
+    <div id="line-chart">
+      <div id="line-container"></div>
+    </div>
+
     <!--Map-->
     <div id="map-chart">
-      <h2>State Estimates</h2>
       <div class="row">
         <div class="column-md-12 text-center">
           <button type="button" id="received-btn-state" class="active">
-            Received
+            Received care
           </button>
           <button type="button" id="notreceived-btn-state">
-            Couldn't receive
+            Couldn't receive care
           </button>
         </div>
       </div>
       <div id="map-container"></div>
     </div>
 
-    <!--Line Chart-->
-    <div id="line-chart">
-      <h2>National Estimates</h2>
-      <div id="line-container"></div>
-    </div>
-
     <!--Data Table-->
     <div id="data-table">
-      <h2>National Estimates</h2>
-      <div id="table-container"></div>
+      <!--<div class="row">
+        <div class="column-md-12 text-center">
+          <button type="button" id="fullreceived-btn" class="active">
+            Received care
+          </button>
+          <button type="button" id="fullneed-btn">Couldn't receive care</button>
+        </div>
+      </div>-->
+      <table id="table-container" class="table table-striped">
+        <thead id="table-headings" class="table-primary">
+          <tr>
+            <th>Indicator</th>
+            <th>Time Period</th>
+            <th>State</th>
+            <th>Value (%)</th>
+            <th>Confidence Interval (%)</th>
+          </tr>
+        </thead>
+      </table>
     </div>
 
     <footer id="footer">
@@ -143,16 +175,19 @@
     ></script>
     <!--HighCharts-->
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
-
     <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+    <!--DataTables-->
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.11.3/datatables.min.js"
+    ></script>
     <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/3941123ac2.js"
       crossorigin="anonymous"
     ></script>
-    <!--Main.js-->
-    <script src="./scripts/main.js"></script>
-    <script src="./scripts/map.js"></script>
+    <!--My js-->
+    <script src="./scripts/statedata.js"></script>
     <script src="./scripts/linechart.js"></script>
   </body>
 </html>
