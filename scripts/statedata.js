@@ -3,7 +3,7 @@ $( document ).ready(function() {
     renderReceivedMap();
     table = $('#table-container').DataTable( {
         ajax: {
-            url: "/data/states_receive_full.json",
+            url: "states_receive_full.json",
             dataSrc: ""
         },
         columns: [
@@ -30,7 +30,7 @@ $("#received-btn-state").click(function() {
         $("#table-headings").removeClass("table-warning");
         renderReceivedMap();
         table.destroy();
-        renderTable("/data/states_receive_full.json");
+        renderTable("states_receive_full.json");
     }
 })
 
@@ -45,7 +45,7 @@ $("#notreceived-btn-state").click(function() {
         $("#table-headings").removeClass("table-primary");
         renderNotReceivedMap();
         table.destroy();
-        renderTable("/data/states_need_full.json");
+        renderTable("states_need_full.json");
     }
 })
 
@@ -71,7 +71,7 @@ function renderTable(dataset) {
 
 // Map rendering
 function renderReceivedMap() {
-    $.getJSON("../data/state_received.json", function(data) {
+    $.getJSON("state_received.json", function(data) {
     Highcharts.mapChart('map-container', {
         chart: {
             map: 'countries/us/us-all'
@@ -139,7 +139,7 @@ function renderReceivedMap() {
 }
 
 function renderNotReceivedMap() {
-    $.getJSON("../data/state_needed.json", function(data) {
+    $.getJSON("state_needed.json", function(data) {
     Highcharts.mapChart('map-container', {
         chart: {
             map: 'countries/us/us-all',
